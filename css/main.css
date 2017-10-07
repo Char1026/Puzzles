@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One|Indie+Flower');
+
+.page-header{
+    font-family: 'Germania One';
+    text-align: center;
+    font-size: 2rem;
+    color: #2E9FCC;
+}
+.nav-menu {
+    font-family: 'Indie Flower';
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #175066;
+}
+
+.nav-menu li {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.nav-menu a:link, a:visited {
+    color: white;
+}
+.nav-menu a:hover{
+    color: #288BB2;
+}
+.nav-item-link a, a:visited, a:link {
+    text-decoration: none;
+    color: #86DDFF;
+}
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+.list-item-menu li {
+    font-family: 'Indie Flower';
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    background: #86DDFF;
+}
+h2 {
+    font-size: 20px;
+    display: inline-block;
+    color: #175066;
+}
+.list-item-name{
+    margin: 15px 20px;
+}
+.list-item-price {
+    font-size: 20px;
+    float: right;
+    margin: 15px 20px;
+    font-style: italic;
+    color: #175066;
+}
+.list-item-menu-details {
+    text-align: center;
+    padding: 0 25px 25px;
+    color: #2E9FCC;
+}
+.list-name-details {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #2E9FCC;
+}
+form > input {
+    font-family: 'Indie Flower';
+    font-size: 16px;
+    display: block;
+    width: 350px;
+    padding: 4px 8px;
+    margin:auto;
+    margin-bottom: 10px;
+    box-shadow:none;
+    background: none;
+    border-radius: 2px;
+    border: 1px solid #175066;
+    color: #288BB2;
+}
+form > button {
+    font-family: 'Indie Flower';
+    font-size: 16px;
+    width: 250px;
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #288BB2;
+    background-color: #175066;
+    color: #86DDFF;
+}
